@@ -12,6 +12,9 @@
 
 h1 {
   font-size: 45px;
+  white-space: nowrap;
+  font-family: CustomFont;
+
   /* margin-bottom: -10px; */
 }
 
@@ -25,3 +28,8 @@ nav {
 nav div {
   /* margin-bottom: -4.5px; */
 }
+
+@font-face {
+  font-family: "CustomFont";
+  src: url("Delacorso Outlines.otf");
+  }

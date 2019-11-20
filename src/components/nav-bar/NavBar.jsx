@@ -28,7 +28,8 @@ const NavBar = ({ toggleCart, cartIsOpen }) => {
     <div className="nav">
       <div className="logo">
         <h1>
-          Not <span style={{ fontFamily: "cursive" }}>Just</span> Books
+          {/* Not <span style={{ fontFamily: "cursive" }}>Just</span> Books */}
+          Not Just Books
         </h1>
       </div>
       <nav>{mappingDestinations(destinations)}</nav>

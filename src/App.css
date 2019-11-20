@@ -3,6 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+.aaaaa{
+  background: rgba(246, 48, 48, 0.366);
+}
 
 .top {
   width: 100vw;
