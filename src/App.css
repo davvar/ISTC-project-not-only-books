@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.top {
+  width: 100vw;
+  height: 100vh;
+  background: url("./imgs/bg.jpg");
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.366);
+  background-size: cover;
+}
+
+.line {
+  width: 100%;
+  border-bottom: 10px solid #000;
+}
+
+
+.name{
+  overflow: hidden;
+  background: url('./c.jpg');
+  background-size: contain;
+  background-repeat: repeat;
+  width: 100%;
+  height: 100vh;
+}

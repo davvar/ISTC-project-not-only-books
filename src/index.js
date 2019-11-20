@@ -1,0 +1,18 @@
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import { createStore, applyMiddleware } from "redux";
+import { Provider } from "react-redux";
+import { mainPageReducer } from "./store/reducers/mainPageReducer";
+// import ReduxThunk from "redux-thunk";
+// applyMiddleware(ReduxThunk)
+
+
+let store = createStore(mainPageReducer, );
+
+ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById("root")
+);

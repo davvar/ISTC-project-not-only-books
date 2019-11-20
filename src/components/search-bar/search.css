@@ -1,0 +1,29 @@
+.search {
+  min-width: 600px;
+  max-width: 850px;
+  margin: 5px auto;
+  display: flex;
+  background: rgba(19, 17, 17, 0.838);
+}
+.search-btn {
+  flex-basis: 20%;
+  padding: 10px 0;
+  background: white;
+color:  rgba(19, 17, 17, 0.838);
+}
+
+
+input[type="text"] {
+  flex-basis: 80%;
+  padding: 0 15px;
+  background: none;
+  border: none;
+  color: white;
+  font-family: "montserrat", cursive;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+input::placeholder {
+  color: white;
+}

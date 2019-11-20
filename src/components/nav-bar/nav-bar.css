@@ -1,0 +1,27 @@
+.nav {
+  padding: 1% 3% 0 3%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-family: monospace;
+  /* border-bottom: 0.5px solid white; */
+  align-items: flex-end;
+  font-family: "Fredoka One", cursive;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 45px;
+  /* margin-bottom: -10px; */
+}
+
+nav {
+  flex-basis: 70%;
+  display: flex;
+  font-size: 20px;
+  justify-content: space-around;
+}
+
+nav div {
+  /* margin-bottom: -4.5px; */
+}

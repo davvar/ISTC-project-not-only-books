@@ -1,0 +1,88 @@
+
+
+.book {
+  display: flex;
+  min-width: 600px;
+  max-width: 850px;
+  font-family: "Fredoka One", cursive;
+  letter-spacing: 1px;
+  margin: auto;
+  margin-top: calc((100vh - 500px) / 2);
+  padding: 5px 20px ;
+  background: rgba(19, 17, 17, 0.838);
+  border-radius: 1px;
+  color: rgb(255, 255, 255);
+  /* box-shadow: -1px -1px 20px 10px rgba(19, 18, 18, 0.719); */
+}
+
+.info div:first-child {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+img{
+width: 350px;
+height:550px;
+border: 1px solid black;
+margin-right: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.info div:last-child {
+  float: right;
+}
+
+.lorem {
+  font-family: "montserrat", cursive;
+  font-weight: bold;
+}
+
+button {
+  padding: 5px 10px;
+  margin-left: 20px;
+  border: 1px solid white;
+  color: white;
+  background: none;
+  font-weight: bold;
+  font-family: "montserrat", cursive;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: all 0.3s;
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+  
+}
+
+button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(0,1) ;
+  background: white;
+  z-index: -1;
+  transition: 0.3s;
+}
+button:hover {
+  color: black;
+}
+button:hover::before{
+     /* width: 100%;  */
+  transform: scale(1,1)
+
+}
